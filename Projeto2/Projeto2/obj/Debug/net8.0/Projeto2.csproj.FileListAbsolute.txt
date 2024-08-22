@@ -1,0 +1,15 @@
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.exe
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.deps.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.runtimeconfig.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.AssemblyInfoInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.AssemblyInfo.cs
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.csproj.CoreCompileInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.sourcelink.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\refint\Projeto2.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.genruntimeconfig.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Projeto2\Projeto2\obj\Debug\net8.0\ref\Projeto2.dll
