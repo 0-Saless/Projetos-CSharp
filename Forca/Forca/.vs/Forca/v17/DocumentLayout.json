@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Forca\\Forca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{466CFC6D-04EB-4C00-85B2-4625E7F415C3}|Forca\\Forca.csproj|c:\\users\\regina\\documents\\github\\projetos-csharp\\forca\\forca\\forca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466CFC6D-04EB-4C00-85B2-4625E7F415C3}|Forca\\Forca.csproj|solutionrelative:forca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Forca\\Forca\\Forca\\Program.cs",
+              "RelativeDocumentMoniker": "Forca\\Program.cs",
+              "ToolTip": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Forca\\Forca\\Forca\\Program.cs",
+              "RelativeToolTip": "Forca\\Program.cs",
+              "ViewState": "AQIAADACAAAAAAAAAAAAwGkCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:41:00.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

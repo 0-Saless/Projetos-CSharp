@@ -1,0 +1,15 @@
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\bin\Debug\net8.0\Forca.exe
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\bin\Debug\net8.0\Forca.deps.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\bin\Debug\net8.0\Forca.runtimeconfig.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\bin\Debug\net8.0\Forca.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\bin\Debug\net8.0\Forca.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.AssemblyInfoInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.AssemblyInfo.cs
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.csproj.CoreCompileInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.sourcelink.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\refint\Forca.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\Forca.genruntimeconfig.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Forca\Forca\Forca\obj\Debug\net8.0\ref\Forca.dll

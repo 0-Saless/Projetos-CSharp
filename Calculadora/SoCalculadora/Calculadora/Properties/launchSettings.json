@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calculadora": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Calculadora\\SoCalculadora"
+    }
+  }
+}

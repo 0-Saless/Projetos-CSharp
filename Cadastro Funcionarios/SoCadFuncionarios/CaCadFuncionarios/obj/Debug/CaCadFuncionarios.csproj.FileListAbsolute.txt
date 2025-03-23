@@ -1,0 +1,15 @@
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\CaCadFuncionarios.csproj.AssemblyReference.cache
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\CaCadFuncionarios.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\CaCadFuncionarios.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\CaCadFuncionarios.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.exe.config
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.exe
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.pdb
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\Funcionario.exe
+C:\Users\aluno\Documents\Heitorzinho (Temporário)\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\Funcionario.pdb
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.exe.config
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.exe
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.pdb
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\Funcionario.exe
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\obj\Debug\Funcionario.pdb
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Cadastro Funcionarios\SoCadFuncionarios\CaCadFuncionarios\bin\Debug\Funcionario.xml

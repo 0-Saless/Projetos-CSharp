@@ -1,0 +1,16 @@
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form1.resources
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+E:\DESENVOLVIMENTO DE SISTEMAS - DS\Calculadora\SoCalculadora\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll

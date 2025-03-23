@@ -1,0 +1,617 @@
+﻿using System;
+using System.Globalization;
+using System.Text;
+using static System.Console;
+
+OutputEncoding = System.Text.Encoding.UTF8;
+//Declarações de variáveis
+string[] forca = { "marido", "mortal", "zangado", "perfurar", "ouro", "colapso", "pegada", "biblioteca" };
+Random random = new Random();
+string frase_sorteada = " ";
+int jogadores = 0;
+int contj1 = 0, contj2 = 0;
+int contA = 0, contE = 0, rep = 0, posicao = 41;
+int rod;
+int sorteado;
+int vencedor;
+string dica, sn;
+string[] dicas = { "Esposa", "Kombat (Nome de jogo)", "Sinônimo de bravo", "O que a furadeira faz?", "Minério que vale mais do que dinheiro", "Estrela quando morre entra em?", "Rsatros deixados por animais", "Um lugar com muito conhecimento" };
+//==================================================
+WriteLine("Quantos jogadores terão?");
+jogadores = int.Parse(ReadLine());
+
+WriteLine("Quantas rodadas terão? ");
+int rodadas = int.Parse(ReadLine());
+
+
+for (int p = 0; p < rodadas; p++)
+{
+    sorteado = random.Next(0, 8);
+    rod = p % 2;
+    Clear();
+    ForegroundColor = ConsoleColor.White;
+    if (jogadores == 1)
+    {
+        frase_sorteada = forca[sorteado];
+    }
+    else if (jogadores == 2)
+    {
+        WriteLine("Digite a palavra: ");
+        frase_sorteada = ReadLine();
+    }
+    else
+    {
+        WriteLine("Quantidade inválida!!");
+    }
+    Clear();
+    if (jogadores == 2)
+    {
+        SetCursorPosition(16, 5);
+        Write(contj1);
+        SetCursorPosition(17, 4);
+        Write("█");
+        SetCursorPosition(18, 5);
+        Write("█");
+        SetCursorPosition(19, 6);
+        Write("█");
+        SetCursorPosition(17, 6);
+        Write("█");
+        SetCursorPosition(19, 4);
+        Write("█");
+        SetCursorPosition(20, 5);
+        Write(contj2);
+    }
+    SetCursorPosition(15, 2);
+    Write("Rodada " + (p + 1));
+    O_Jogo();
+    Thread.Sleep(1000);
+}
+if (jogadores == 2)
+{
+    Clear();
+    if (contj1 > contj2)
+    {
+        vencedor = 1;
+        WriteLine("Vitória do jogador " + vencedor);
+    }
+    else if (contj1 < contj2)
+    {
+        vencedor = 2;
+        WriteLine("Vitória do jogador " + vencedor);
+    }
+    else
+    {
+        WriteLine("Empate!!!!");
+    }
+}
+
+
+void O_Jogo()
+{
+    bool dicar = false;
+    contA = 0;
+    contE = 0;
+    int tam = frase_sorteada.Length;
+    string[] letra = new string[tam];
+    string[] palavra = new string[tam];
+    string[] digitados = new string[tam + 6];
+    posicao = 41;
+    rep = 0;
+
+    //Montar o jogo
+    Design();
+    SetCursorPosition(10, 10);
+    for (int i = 0; i < tam; i++)
+    {
+        palavra[i] = "-";
+        Write(palavra[i]);
+        Thread.Sleep(50);
+    }
+
+    //==================================================
+    //Definir dicas
+    for (int i = 0; i < tam; i++)
+    {
+        letra[i] = frase_sorteada.Substring(i, 1);
+    }
+    //==================================================
+    //Mecanismo da forca
+    for (int i2 = 0; i2 < tam + 6; i2++)
+    {
+        //Lê a letra do usuário
+        bool teste = true;
+        bool sub = true;
+        SetCursorPosition(10, 20);
+        ForegroundColor = ConsoleColor.White;
+        Write("Digite uma letra: ");
+        string letraD = ReadLine();
+
+        //Analisa se o usuário digitou a palavra certa
+        if (letraD == frase_sorteada)
+        {
+            contA = tam;
+            SetCursorPosition(10, 10);
+            for (int j2 = 0; j2 < tam; j2++)
+            {
+                Write(frase_sorteada[j2]);
+                Thread.Sleep(50);
+            }
+        }
+        SetCursorPosition(28, 20);
+        Write(" ");
+        letraD = letraD.ToLower();
+        //==================================================
+        for (int j = 0; j < tam; j++)
+        {
+            //Vê se a letra está na palavra
+            if (letraD == letra[j])
+            {
+                contA++;
+                teste = false;
+                palavra[j] = letra[j];
+                SetCursorPosition(10, 10);
+                //Escreve a palavra com a letra correta
+                for (int j2 = 0; j2 < tam; j2++)
+                {
+                    Write(palavra[j2]);
+                    Thread.Sleep(50);
+                }
+            }
+            //==================================================
+            for (int k = 0; k < tam; k++)
+            {
+                //Vê se o usuário já digitou a letra
+                if (letraD == digitados[k])
+                {
+                    SetCursorPosition(10, 19);
+                    Write("Você já digitou essa letra! ");
+                    Thread.Sleep(2000);
+                    SetCursorPosition(10, 19);
+                    Write("                              ");
+                    sub = false;
+                }
+                //==================================================
+            }
+            if (sub == false)
+            {
+                break;
+            }
+        }
+        //Contador de erros
+        if (teste == true && sub == true)
+        {
+            contE++;
+        }
+        //==================================================
+        Montar_boneco();
+        //Mostrar as letras já digitadas
+        if (sub == true)
+        {
+            SetCursorPosition(20, 4);
+            Write("Letras que já foram: ");
+            string letras = "|" + letraD + "|";
+            if (rep >= 19)
+            {
+                if (rep == 19)
+                {
+                    posicao = 41;
+                }
+                SetCursorPosition(posicao, 6);
+                posicao = posicao + letras.Length - 1;
+                Write(letras);
+            }
+            else if (rep >= 9)
+            {
+                if (rep == 9)
+                {
+                    posicao = 41;
+                }
+                SetCursorPosition(posicao, 5);
+                posicao = posicao + letras.Length - 1;
+                Write(letras);
+            }
+            else
+            {
+                SetCursorPosition(posicao, 4);
+                posicao = posicao + letras.Length - 1;
+                Write(letras);
+            }
+            rep = rep + 1;
+
+        }
+        //==================================================
+        //Oferece dica ao usuário
+        if (jogadores == 1)
+        {
+            if (contE == 3 && dicar == false)
+            {
+                dicar = true;
+                SetCursorPosition(10, 22);
+                Write("Você quer uma dica da palavra? ");
+                sn = ReadLine();
+                sn = sn.ToLower();
+                if (sn == "sim" || sn == "s")
+                {
+
+                    dica = dicas[sorteado];
+                    SetCursorPosition(10, 23);
+                    WriteLine("A dica é: " + dica);
+                }
+                else
+                {
+                    SetCursorPosition(10, 22);
+                    WriteLine("                                              ");
+                }
+
+            }
+        }
+        //==================================================
+
+        if (contA > tam)
+        {
+            contA = contA - (contA - tam);
+        }
+        digitados[i2] = letraD;
+
+        if (contE == 6)
+        {
+            Game_Over();
+            if (rod == 1)
+            {
+                contj2++;
+            }
+            else
+            {
+                contj1++;
+            }
+            break;
+        }
+        if (contA == tam)
+        {
+            You_Win();
+            if (rod == 1)
+            {
+                contj1++;
+            }
+            else
+            {
+                contj2++;
+            }
+            break;
+        }
+    }
+    //Palavra certa
+    SetCursorPosition(21, 12);
+    WriteLine($"A palavra era: {frase_sorteada}");
+    SetCursorPosition(20, 20);
+}
+//==================================================
+void Montar_boneco()
+{
+    //Monta o boneco da forca
+    SetCursorPosition(2, 3);
+    char a = '\\';
+    switch (contE)
+    {
+        case 6:
+            SetCursorPosition(7, 6);
+            WriteLine("/");
+            break;
+        case 5:
+            SetCursorPosition(9, 6);
+            WriteLine(a);
+            break;
+        case 4:
+            SetCursorPosition(7, 5);
+            WriteLine("/");
+            break;
+        case 3:
+            SetCursorPosition(9, 5);
+            WriteLine(a);
+            break;
+        case 2:
+            SetCursorPosition(8, 5);
+            WriteLine("|");
+            break;
+        case 1:
+            SetCursorPosition(8, 4);
+            WriteLine("O");
+            break;
+    }
+    //==================================================
+
+
+}
+
+void Design()
+{
+    //Monta a forca
+    for (int i = 6; i > 0; i--)
+    {
+        SetCursorPosition(4, 3 + i);
+        Write("│");
+    }
+    SetCursorPosition(4, 3);
+    Write("┌");
+    for (int i = 0; i < 4; i++)
+    {
+        SetCursorPosition(5 + i, 3);
+        Write("─");
+    }
+    SetCursorPosition(8, 3);
+    Write("┐");
+    //==================================================
+    //Monta a borda
+    for (int i = 0; i < 58; i++)
+    {
+        SetCursorPosition(3 + i, 1);
+        Write("═");
+    }
+    SetCursorPosition(2, 1);
+    Write("╔");
+    for (int i = 0; i < 58; i++)
+    {
+        SetCursorPosition(3 + i, 25);
+        Write("═");
+    }
+    SetCursorPosition(61, 1);
+    Write("╗");
+    for (int i = 23; i > 0; i--)
+    {
+        SetCursorPosition(61, 1 + i);
+        Write("║");
+    }
+    SetCursorPosition(2, 25);
+    Write("╚");
+    for (int i = 23; i > 0; i--)
+    {
+        SetCursorPosition(2, 1 + i);
+        Write("║");
+    }
+    SetCursorPosition(61, 25);
+    Write("╝");
+    //==================================================
+}
+void Game_Over()
+{
+    for (int j = 0; j < 4; j++)
+    {
+        ForegroundColor = ConsoleColor.Red;
+        for (int i2 = 0; i2 < 21; i2 = i2 + 4)
+        {
+            for (int i = 0; i < 60; i = i + 4)
+            {
+                SetCursorPosition(2 + i, 2 + i2);
+                Write("█");
+                SetCursorPosition(3 + i, 3 + i2);
+                Write("█");
+                SetCursorPosition(4 + i, 4 + i2);
+                Write("█");
+                SetCursorPosition(2 + i, 4 + i2);
+                Write("█");
+                SetCursorPosition(4 + i, 2 + i2);
+                Write("█");
+            }
+        }
+        Thread.Sleep(500);
+        ForegroundColor = ConsoleColor.DarkRed;
+        for (int i2 = 0; i2 < 21; i2 = i2 + 4)
+        {
+            for (int i = 0; i < 60; i = i + 4)
+            {
+                SetCursorPosition(2 + i, 2 + i2);
+                Write("█");
+                SetCursorPosition(3 + i, 3 + i2);
+                Write("█");
+                SetCursorPosition(4 + i, 4 + i2);
+                Write("█");
+                SetCursorPosition(2 + i, 4 + i2);
+                Write("█");
+                SetCursorPosition(4 + i, 2 + i2);
+                Write("█");
+            }
+        }
+        Thread.Sleep(500);
+    }
+    Clear();
+    ForegroundColor = ConsoleColor.Red;
+
+    //G
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(5, 5 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(6, 5);
+    Write("▀");
+    SetCursorPosition(7, 5);
+    Write("▀");
+    SetCursorPosition(8, 5);
+    Write("▀");
+    SetCursorPosition(6, 7);
+    Write("▄");
+    SetCursorPosition(7, 7);
+    Write("▄");
+    SetCursorPosition(8, 7);
+    WriteLine("█");
+    SetCursorPosition(7, 6);
+    Write("▄");
+    SetCursorPosition(8, 6);
+    Write("▄");
+    //A
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(10, 5 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(11, 5);
+    Write("▀");
+    SetCursorPosition(12, 5);
+    Write("▀");
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(13, 5 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(11, 6);
+    Write("▀");
+    SetCursorPosition(12, 6);
+    Write("▀");
+    //M
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(16, 5 + i);
+        WriteLine("█");
+    }
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(20, 5 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(17, 5);
+    Write("▀");
+    SetCursorPosition(19, 5);
+    Write("▀");
+    SetCursorPosition(18, 5);
+    Write("▄");
+    //E
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(23, 5 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(24, 5);
+    Write("▀");
+    SetCursorPosition(24, 6);
+    Write("▀");
+    SetCursorPosition(24, 7);
+    Write("▄");
+    SetCursorPosition(25, 5);
+    Write("▀");
+    SetCursorPosition(25, 6);
+    Write("▀");
+    SetCursorPosition(25, 7);
+    Write("▄");
+
+    //O
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(23, 15 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(24, 14);
+    Write("▄");
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(25, 15 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(24, 18);
+    Write("▀");
+    //V
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(28, 15 + i);
+        WriteLine("█");
+    }
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(30, 15 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(29, 18);
+    Write("▀");
+    //E
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(33, 15 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(34, 15);
+    Write("▀");
+    SetCursorPosition(34, 16);
+    Write("▀");
+    SetCursorPosition(34, 17);
+    Write("▄");
+    SetCursorPosition(35, 15);
+    Write("▀");
+    SetCursorPosition(35, 16);
+    Write("▀");
+    SetCursorPosition(35, 17);
+    Write("▄");
+    //R
+    Thread.Sleep(100);
+    for (int i = 0; i < 3; i++)
+    {
+        SetCursorPosition(38, 15 + i);
+        WriteLine("█");
+    }
+    SetCursorPosition(39, 15);
+    Write("▀");
+    SetCursorPosition(40, 15);
+    Write("▀");
+    SetCursorPosition(41, 15);
+    WriteLine("█");
+    SetCursorPosition(41, 16);
+    WriteLine("▀");
+    SetCursorPosition(40, 16);
+    Write("▄");
+    SetCursorPosition(41, 17);
+    WriteLine("█");
+}
+
+void You_Win()
+{
+    Clear();
+    for (int i = 0; i < 3; i++)
+    {
+        ForegroundColor = ConsoleColor.Yellow;
+        SetCursorPosition(2, 2);
+        Write(@"█ █   ██   █  █
+  █ █  █  █  █  █
+   █   █  █  █  █
+   █   █  █  █▄▄█
+        ██");
+        Thread.Sleep(100);
+
+        SetCursorPosition(15, 15);
+        Write(@"█  █  █  █  █▀▄ █
+               █  █  █  █  █ █ █
+               █  █  █  █  █ █ █
+                ▀▀ ▀▀   █  █ █▄▀");
+
+        ForegroundColor = ConsoleColor.DarkYellow;
+        SetCursorPosition(2, 2);
+        Write(@"█ █   ██   █  █
+  █ █  █  █  █  █
+   █   █  █  █  █
+   █   █  █  █▄▄█
+        ██");
+        Thread.Sleep(100);
+
+        SetCursorPosition(15, 15);
+        Write(@"█  █  █  █  █▀▄ █
+               █  █  █  █  █ █ █
+               █  █  █  █  █ █ █
+                ▀▀ ▀▀   █  █ █▄▀");
+        Thread.Sleep(100);
+    }
+    SetCursorPosition(5, 7);
+    Write(@" ▄▄ █████████████ ▄▄
+     █  ▀█████████████▀  █
+     █   █████████████   █
+      ▀▄▄█████████████▄▄▀
+         █████████████
+          ▀▀▀▀███▀▀▀▀
+  	      ███
+  	     █████");
+}
+
+

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Estudo C#\\EstudoC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{235BE9B2-AD77-46AB-8069-D5CAB6BEE701}|EstudoC#\\EstudoC#.csproj|c:\\users\\regina\\documents\\github\\projetos-csharp\\estudo c#\\estudoc#\\estudoc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{235BE9B2-AD77-46AB-8069-D5CAB6BEE701}|EstudoC#\\EstudoC#.csproj|solutionrelative:estudoc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Estudo C#\\EstudoC#\\EstudoC#\\Program.cs",
+              "RelativeDocumentMoniker": "EstudoC#\\Program.cs",
+              "ToolTip": "C:\\Users\\Regina\\Documents\\GitHub\\Projetos-CSharp\\Estudo C#\\EstudoC#\\EstudoC#\\Program.cs",
+              "RelativeToolTip": "EstudoC#\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:19:37.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

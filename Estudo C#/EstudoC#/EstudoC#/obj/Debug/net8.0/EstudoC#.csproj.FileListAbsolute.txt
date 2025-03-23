@@ -1,0 +1,15 @@
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\bin\Debug\net8.0\EstudoC#.exe
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\bin\Debug\net8.0\EstudoC#.deps.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\bin\Debug\net8.0\EstudoC#.runtimeconfig.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\bin\Debug\net8.0\EstudoC#.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\bin\Debug\net8.0\EstudoC#.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.AssemblyInfoInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.AssemblyInfo.cs
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.csproj.CoreCompileInputs.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.sourcelink.json
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\refint\EstudoC#.dll
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.pdb
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\EstudoC#.genruntimeconfig.cache
+C:\Users\Regina\Documents\GitHub\Projetos-CSharp\Estudo C#\EstudoC#\EstudoC#\obj\Debug\net8.0\ref\EstudoC#.dll

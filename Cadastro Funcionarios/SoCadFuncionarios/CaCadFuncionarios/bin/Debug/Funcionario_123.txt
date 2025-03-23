@@ -1,0 +1,9 @@
+
+
+Funcionário
+Matrícula: 123
+Nome: Rafel
+Endereço: asdas
+Telefone: 12345
+Data de Nascimento: 10/10/2000
+Idade: 24 anos

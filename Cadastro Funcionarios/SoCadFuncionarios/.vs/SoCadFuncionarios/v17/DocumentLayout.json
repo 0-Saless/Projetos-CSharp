@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{460486FF-4966-47EF-929B-DD8E9AAD0C33}|CaCadFuncionarios\\CaCadFuncionarios.csproj|e:\\desenvolvimento de sistemas - ds\\cadastro funcionarios\\socadfuncionarios\\cacadfuncionarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460486FF-4966-47EF-929B-DD8E9AAD0C33}|CaCadFuncionarios\\CaCadFuncionarios.csproj|solutionrelative:cacadfuncionarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460486FF-4966-47EF-929B-DD8E9AAD0C33}|CaCadFuncionarios\\CaCadFuncionarios.csproj|E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\cacadfuncionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460486FF-4966-47EF-929B-DD8E9AAD0C33}|CaCadFuncionarios\\CaCadFuncionarios.csproj|solutionrelative:cacadfuncionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\CaCadFuncionarios\\Funcionario.cs",
+              "RelativeDocumentMoniker": "CaCadFuncionarios\\Funcionario.cs",
+              "ToolTip": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\CaCadFuncionarios\\Funcionario.cs",
+              "RelativeToolTip": "CaCadFuncionarios\\Funcionario.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:27:09.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\CaCadFuncionarios\\Program.cs",
+              "RelativeDocumentMoniker": "CaCadFuncionarios\\Program.cs",
+              "ToolTip": "E:\\DESENVOLVIMENTO DE SISTEMAS - DS\\Cadastro Funcionarios\\SoCadFuncionarios\\CaCadFuncionarios\\Program.cs",
+              "RelativeToolTip": "CaCadFuncionarios\\Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAmwLsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:26:28.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
